@@ -47,7 +47,7 @@ eaze(target).to(duration, { x:dx, y:dy })
     .onComplete(handler, param1, param2, etc);
 
 // identical to:
-TweenMax.to(target, duration {
+TweenMax.to(target, duration, {
     x:dx, y:dy,
     onUpdate:handler, onUpdateParams:[param1, etc],
     onComplete:handler, onCompleteParams:[param1, param2, etc]
